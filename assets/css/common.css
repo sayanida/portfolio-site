@@ -259,7 +259,7 @@ a:hover img {
   margin-right: 35px;
   font-size: 1.0rem;
   font-weight: 100;
-		z-index: 999;
+  z-index: 9999;
 }
 .language-btn a {
   text-decoration: none;
