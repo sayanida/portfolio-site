@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width = device-width, initial-scale=1, user-scalable=yes"
+    />
+    <meta name="description" content="SAYA　Web creator　Webクリエイター" />
+    <meta property="og:title" content="SAYA | Web creator based in Japan." />
+    <meta
+      property="og:site_name"
+      content="SAYA | Web creator based in Japan."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="ja-jp" />
+
+    <!-- サイトイメージ設定 -->
+    <meta property="og:image" content="assets/img/common/ogp.png" />
+    <meta
+      property="og:description"
+      content="SAYA | Web creator based in Japan. | Webクリエイター"
+    />
+    <meta name="twitter:card" content="summary" />
+
+    <!--背景グラデーション変化
+<meta name="viewport" content="width=device-width,initial-scale=1.0">-->
+
+    <title>SAYA | Web creator based in Japan.</title>
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/common.css" />
+    <link rel="stylesheet" href="assets/css/about.css" />
+
+    <!-- タッチアイコン設定 -->
+    <link href="assets/img/icon/touch.ico" rel="icon" type="image/x-icon" />
+
+    <!-- ファビコン設定 -->
+    <link rel="apple-touch-icon" href="assets/img/icon/favicon.ico" />
+    <script type="text/javascript">
+      function load_effect() {
+        var element = document.getElementsByClassName("load-fade");
+        if (!element) return; // 要素がない場合は終了
+
+        for (var i = 0; i < element.length; i++) {
+          element[i].classList.add("is-show");
+        }
+      }
+      setTimeout(load_effect, 600);
+      // 600ミリ秒経過後に実行
+    </script>
+
+    <!--円グラフ -->
+    <link rel="stylesheet" href="assets/css/circle.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="header hidden" id="header">
+        <div class="title-logo">
+          <a href="index.html"
+            ><img src="assets/img/logo/header-logo.png" alt=""
+          /></a>
+        </div>
+        <nav class="globalMenuSp">
+          <ul>
+            <!-- 現在のページを設定するときは右を入力する。<li class="current"><a href="#">Home</a></li>-->
+            <li><a href="works.html">WORKS</a></li>
+            <li class="current"><a href="about.html">ABOUT</a></li>
+            <li>
+              <a
+                href="https://forms.gle/PBqdpUDeEXKUtdgb8"
+                　target="”_blank”　rel"
+                ="noopener noreferrer"
+                >CONTACT</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/sayadesign.site/"
+                rel="noopener"
+                target="_blank"
+                ><img
+                  class="instagram-707070"
+                  src="assets/img/icon/instagram-707070.png"
+                  alt="instagram icon" /><img
+                  class="instagram-FCFCFC"
+                  src="assets/img/icon/instagram-FCFCFC.png"
+                  alt="instagram icon"
+              /></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="hamburger"><span></span> <span></span> <span></span></div>
+    </header>
+    <main class="main">
+      <div>
+        <div class="language-btn">
+          <a href="javascript:void(0)" class="language-btn-jp">日本語</a>
+          <a href="javascript:void(0)" class="language-btn-en">English</a>
+        </div>
+        <div class="load-fade">
+          <section class="section-hello">
+            <ol class="descriptions">
+              <li class="list-img">
+                <img src="assets/img/about/about-top2.jpg" alt="" />
+              </li>
+              <li class="list-message">
+                <h1>Hello:)</h1>
+                <p class="eng">
+                  Thank you very much for visiting my portfolio site. I'm Saya,
+                  from Japan. <br />After studying graphic design at APC College
+                  in Melbourne, I moved to Adelaide and am currently pursuing a
+                  Master’s degree in IT at a local university. I also work as a
+                  barista at a local cafe, where I enjoy bringing smiles to
+                  people through a single cup of coffee.<br />
+                  In my creative work, I always value sincerity and attention to
+                  detail, aiming to create designs and experiences that leave a
+                  lasting impression. In the future, I hope to grow into a
+                  Front-End Developer or Programmer who can build more dynamic
+                  websites and applications that are both functional and
+                  engaging.
+                  <br />Please feel free to contact me :)
+                </p>
+                <p class="jpn">
+                  当ポートフォリオサイトをご覧いただきありがとうございます。<br />
+                  SAYA(さあや)と申します。<br />
+                  メルボルンの専門学校でグラフィックデザインを学んだ後、現在はアデレードの大学院にてITを専攻し、日々知識と技術を深めています。
+                  現地のカフェでバリスタとしても勤務しており、コーヒー一杯を通じてお客様に笑顔を届けることが日々の楽しみです。
+                  <br />
+                  Web制作においても、見る人の心に残るようなデザインや体験を大切にしながら、誠実かつ丁寧な仕事を心がけています。
+                  将来的には、フロントエンド開発者やプログラマーとして、より動的で実用的なWebサイトやアプリケーションの開発にも携わっていきたいと考えています。
+                  <br />
+                  お仕事のご依頼やご相談などがございましたら、お気軽にご連絡ください。
+                </p>
+                <div class="button">
+                  <a
+                    href="https://forms.gle/PBqdpUDeEXKUtdgb8"
+                    　target="_blank"
+                    　rel="noopener noreferrer"
+                    class="btnarrow5"
+                    >Contact</a
+                  >
+                </div>
+              </li>
+            </ol>
+          </section>
+        </div>
+      </div>
+      <section class="section-about">
+        <div class="txtBox inview fadeIn">
+          <h1>ABOUT ME</h1>
+        </div>
+        <div class="about-contents">
+          <div class="contents">
+            <img
+              class="txtBox inview fadeIn_up"
+              src="assets/img/icon/about-personality.png"
+              alt="bod"
+            />
+            <ol>
+              <li class="txtBox inview fadeIn_up">
+                <p class="eng">
+                  ENFJ Protagonist.<br />
+                  Strength are willingness to take on new challenges and
+                  denancy. I have a positive attitude towards things.
+                </p>
+                <p class="jpn">
+                  ENFJ 主人公タイプ。<br />ちょっと抜けてる完璧主義者。<br />
+                  長所はチャレンジ精神と粘り強さがあるところ。前向きな性格です。
+                </p>
+              </li>
+            </ol>
+          </div>
+          <div class="contents">
+            <img
+              class="txtBox inview fadeIn_up"
+              src="assets/img/icon/about-hobby.png"
+              alt="location"
+            />
+            <ol>
+              <li class="txtBox inview fadeIn_up">
+                <p class="eng">
+                  I enjoy hobbies such as yoga, pilates, going for walks, and
+                  exploring cafes to relax. <br />
+                  Lately, I've also developed an interest in incense and
+                  aromatherapy candles.
+                </p>
+                <p class="jpn">
+                  趣味はヨガやピラティス、散歩、カフェ巡りをしたりしてリラックスすること。<br />
+                  最近はお香やアロマキャンドルにハマっています。
+                </p>
+              </li>
+            </ol>
+          </div>
+          <div class="contents">
+            <img
+              class="txtBox inview fadeIn_up"
+              src="assets/img/icon/about-education.png"
+              alt="education"
+            />
+            <ol>
+              <li class="txtBox inview fadeIn_up">
+                <p class="eng">
+                  Graduated from a four-year university one year early using the
+                  early graduation system. <br />
+                  <br />
+                  Greenwich English College <br />
+                  -General English（Upper-Intermediate) <br />
+                  -English for Business<br />
+                  <br />
+                  Digital Hollywood STUDIO　<br />
+                  -Web Designer<br />
+                  <br />
+                  Australian Pacific College <br />
+                  -Diploma of Graphic Design<br />
+                  <br />
+                  Flinders University <br />
+                  -Master of Information Technology
+                </p>
+                <p class="jpn">
+                  4年制の私立大学を早期卒業 <br />
+                  (早期卒業制度を利用し三年生で卒業) <br />
+                  <br />
+                  Greenwich English College <br />
+                  -一般英語コース（上級）<br />
+                  -ビジネス英語コース<br />
+                  <br />
+                  デジタルハリウッドSTUDIO　<br />
+                  -Webデザイナー専攻<br />
+                  <br />
+                  Australian Pacific College <br />
+                  -グラフィックデザイン専攻<br />
+                  <br />
+                  Flinders University<br />
+                  -情報技術修士
+                </p>
+              </li>
+            </ol>
+          </div>
+          <div class="contents">
+            <img
+              class="txtBox inview fadeIn_up"
+              src="assets/img/icon/about-qualification.png"
+              alt="certificates"
+            />
+            <ol>
+              <li class="txtBox inview fadeIn_up">
+                <p class="eng">
+                  AFT Color Coordinator-Grade1<br />
+                  Personal Colorist-Grade2<br />
+                  MOS Excel Expert<br />
+                  IT Passport<br />
+                  IELTS Academic　6.0<br />
+                  Cambridge English(PET) <br />
+                </p>
+                <p class="jpn">
+                  AFT色彩検定1級<br />
+                  パーソナルカラリスト検定2級<br />
+                  MOS Excel エキスパート<br />
+                  ITパスポート<br />
+                  IELTS アカデミック　6.0<br />
+                  ケンブリッジ英検　PET <br />
+                </p>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </section>
+      <section class="section-skills">
+        <div class="txtBox inview fadeIn">
+          <h1>SKILLS</h1>
+          <h5 class="eng">
+            I create responsive websites from design to coding using HTML, CSS,
+            and JavaScript. <br />
+            Also, I design banners and social media graphics using Photoshop,
+            Illustrator, and InDesign. I excel in crafting simple and inviting
+            designs with a warm touch.
+          </h5>
+          <h5 class="jpn">
+            HTML/CSS/Javascriptを使用し、デザインからコーディングまでスマホ対応サイトを作成いたします。<br />
+            PhotoshopやIllustrator、InDesignを使用したバナーデザインやSNS用デザインも可能です。<br />
+            特にシンプルで温かみのあるデザインが得意です。
+          </h5>
+        </div>
+        <div>
+          <ol>
+            <li class="txtBox inview fadeIn_up">
+              <p>Microsoft Office</p>
+              <div class="c100 p80">
+                <span>80%</span>
+                <div class="slice">
+                  <div class="bar"></div>
+                  <div class="fill"></div>
+                </div>
+              </div>
+            </li>
+            <li class="txtBox inview fadeIn_up">
+              <p>Photoshop</p>
+              <div class="c100 p70">
+                <span>70%</span>
+                <div class="slice">
+                  <div class="bar"></div>
+                  <div class="fill"></div>
+                </div>
+              </div>
+            </li>
+            <li class="txtBox inview fadeIn_up">
+              <p>Illustrator</p>
+              <div class="c100 p65">
+                <span>65%</span>
+                <div class="slice">
+                  <div class="bar"></div>
+                  <div class="fill"></div>
+                </div>
+              </div>
+            </li>
+            <li class="txtBox inview fadeIn_up">
+              <p>Dreamweaver</p>
+              <div class="c100 p60">
+                <span>60%</span>
+                <div class="slice">
+                  <div class="bar"></div>
+                  <div class="fill"></div>
+                </div>
+              </div>
+            </li>
+            <li class="txtBox inview fadeIn_up">
+              <p>Adobe XD</p>
+              <div class="c100 p60">
+                <span>60%</span>
+                <div class="slice">
+                  <div class="bar"></div>
+                  <div class="fill"></div>
+                </div>
+              </div>
+            </li>
+            <li class="txtBox inview fadeIn_up">
+              <p>HTML 5</p>
+              <div class="c100 p55">
+                <span>55%</span>
+                <div class="slice">
+                  <div class="bar"></div>
+                  <div class="fill"></div>
+                </div>
+              </div>
+            </li>
+            <li class="txtBox inview fadeIn_up">
+              <p>CSS</p>
+              <div class="c100 p50">
+                <span>50%</span>
+                <div class="slice">
+                  <div class="bar"></div>
+                  <div class="fill"></div>
+                </div>
+              </div>
+            </li>
+            <li class="txtBox inview fadeIn_up">
+              <p>InDesign</p>
+              <div class="c100 p50">
+                <span>50%</span>
+                <div class="slice">
+                  <div class="bar"></div>
+                  <div class="fill"></div>
+                </div>
+              </div>
+            </li>
+            <li class="txtBox inview fadeIn_up">
+              <p>jQuery/Java Script</p>
+              <div class="c100 p35">
+                <span>35%</span>
+                <div class="slice">
+                  <div class="bar"></div>
+                  <div class="fill"></div>
+                </div>
+              </div>
+            </li>
+            <li class="txtBox inview fadeIn_up">
+              <p>Wordpress</p>
+              <div class="c100 p30">
+                <span>30%</span>
+                <div class="slice">
+                  <div class="bar"></div>
+                  <div class="fill"></div>
+                </div>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="txtBox inview fadeIn">
+        <div class="footer-content-wrapper">
+          <a href="index.html"
+            ><img
+              class="logo-footer"
+              src="assets/img/logo/footer-logo.png"
+              alt="footer logo"
+          /></a>
+          <small>Copyright(c) 2025 SAYA design All rights reserved.</small>
+        </div>
+      </div>
+    </footer>
+    <script src="assets/js/jquery-3.6.1.min.js"></script>
+    <script src="assets/js/common.js"></script>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script
+      type="text/javascript"
+      src="assets/js/jquery.inview.min.js"
+    ></script>
+  </body>
+</html>

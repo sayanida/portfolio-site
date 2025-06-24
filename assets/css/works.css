@@ -1,0 +1,50 @@
+@charset "UTF-8";
+/* CSS Document */
+.main {
+  margin: 10% 10% 10%;
+}
+.section-works h1 {
+  margin: 0 auto 60px;
+}
+.contents {
+  text-align: left;
+  margin: 0 auto;
+  width: 80%;
+}
+.contents li {
+  list-style: none;
+}
+.contents img {
+  width: 100%;
+}
+a.works-img:hover {
+  opacity: 1.0;
+}
+.contents li {
+  margin: 0 0 15% 0;
+}
+.contents li p {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+.contents li span {
+  font-size: 1.3rem;
+  font-weight: 100;
+  line-height: 1;
+}
+.contents a {
+  color: #707070;
+}
+@media (max-width: 959px) {
+  .main {
+    margin: 25% 5% 10%;
+  }
+  .section-works {
+    width: 90%;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .contents {
+    width: 100%;
+  }
+}
